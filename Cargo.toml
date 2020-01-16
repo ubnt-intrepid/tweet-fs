@@ -1,0 +1,22 @@
+[package]
+name = "tweet-fs"
+version = "0.1.0"
+publish = false
+authors = ["Yusuke Sasaki <yusuke.sasaki.nuem@gmail.com>"]
+edition = "2018"
+license = "MIT"
+
+[dependencies]
+anyhow = "1"
+chrono = "0.4"
+dotenv = "0.15"
+egg-mode = "0.13"
+futures = { version = "0.3", features = ["compat"] }
+libc = "0.2"
+polyfuse = "0.3"
+polyfuse-tokio = "0.2"
+slab = "0.4"
+tokio = { version = "0.2", features = ["full"] }
+tokio-compat = "0.1"
+tracing = "0.1"
+tracing-subscriber = "0.1"
